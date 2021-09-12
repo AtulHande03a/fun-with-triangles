@@ -12,12 +12,67 @@ body {
 
 /*main*/
 
-.message {
-  display: none;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
 }
 
-.result {
+label {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.3rem 0.6rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #ff4500;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.message {
+  text-align: center;
   display: none;
+  color: #323e42;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.homepage-link {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0 0.7rem;
+}
+.homepage-link:hover {
+  color: #bd97cb;
+}
+
+button#submit-angle-input {
+  background-color: #695e93;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid #4e4f50;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px rgba(0, 0, 0, 1);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+button#submit-angle-input:hover {
+  background-color: #b21368;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
 }
 
 /*Navbar */
@@ -34,7 +89,6 @@ body {
 
 .heading {
   text-align: center;
-  margin: auto;
 }
 
 nav ul {

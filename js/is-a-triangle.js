@@ -1,6 +1,6 @@
 const angleInput = document.querySelectorAll(".angle-input");
 const angleInputBtn = document.getElementById("submit-angle-input");
-const result = document.querySelector(".result");
+
 const message = document.querySelector(".message");
 
 const checkIfTriangle = () => {
@@ -28,12 +28,8 @@ const checkIfTriangle = () => {
 const isTriangle = (angle1, angle2, angle3) => {
   if (calculateAngleSum(angle1, angle2, angle3)) {
     showMessage("✔ Yes, these angles form a triangle.✔");
-    result.style.display = "block";
-    result.textContent = "Triangle";
   } else {
     showMessage("❌ No, these angles don't form a triangle.❌");
-    result.style.display = "block";
-    result.textContent = "Not a Triangle";
   }
 };
 
