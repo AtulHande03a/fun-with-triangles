@@ -10,6 +10,16 @@ body {
   background-color: #a4e5e0;
 }
 
+/*main*/
+
+.message {
+  display: none;
+}
+
+.result {
+  display: none;
+}
+
 /*Navbar */
 .navbar-container {
   top: 0;

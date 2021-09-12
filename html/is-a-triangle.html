@@ -15,17 +15,28 @@
     <nav class="navbar-container">
       <ul>
        
-        <li><a href="../pages/is-a-triangle.html">Triangle?</a></li>
-          <li><a href="../pages/hypotenuse.html">Hypotenuse</a></li>
-          <li> <a href="../pages/area.html">Area</a></li>
+        <li><a href="../html/is-a-triangle.html">Triangle?</a></li>
+          <li><a href="../html/hypotenuse.html">Hypotenuse</a></li>
+          <li> <a href="../html/area.html">Area</a></li>
          
-          <li><a href="../pages/quiz.html">Quiz</a></li>
+          <li><a href="../html/quiz.html">Quiz</a></li>
         </li>
       </ul>
     </nav>
-    <main>
+    
      
-        <a href="../index.html">Go Back</a>
+        <a class= "homepage-link" href="../index.html">Go Back</a>
+        <h2>Enter three angles and check if they form a triangle or not 👇</h2>
+        <hr>
+        <label for="angle-input" >Angle 1</label>
+        <input type="number" class="angle-input">
+        <label for="angle-input" >Angle 2</label>
+        <input type="number" class="angle-input">
+        <label for="angle-input" >Angle 3</label>
+        <input type="number" class="angle-input">
+        <button id="submit-angle-input">Check</button>
+        <p class="message"></p>
+        <div class="result"></div>
       
     </main>
 
@@ -63,5 +74,6 @@
         </ul>
       </div>
     </footer>
+    <script src="../js/is-a-triangle.js"></script>
   </body>
 </html>
