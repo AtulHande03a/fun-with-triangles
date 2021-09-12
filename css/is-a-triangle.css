@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Roboto";
   background-color: #a4e5e0;
@@ -15,14 +14,12 @@ body {
 .navbar-container {
   top: 0;
   left: 50%;
-  display: flex;
-  justify-content: space-between;
   background-color: #2e8bc0;
   padding: 1rem 1rem;
-  color: #fff;
   margin: 0 auto;
   font-family: "Montserrat";
   box-shadow: 0 5px 10px #1e3d58;
+  margin-bottom: 0.5rem;
 }
 
 .heading {
@@ -30,37 +27,42 @@ body {
   margin: auto;
 }
 
-/*main*/
-.main-container {
+nav ul {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  margin: auto 3rem;
   align-items: center;
-  padding: 0.5rem 0.5rem;
-  text-align: center;
 }
 
-main h1 {
-  margin-bottom: 1rem;
-  font-size: 1.75rem;
+li {
+  list-style-type: none;
 }
 
-main a {
-  background-color: #695e93;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem 2rem;
-  border: 2px solid #eee;
-  font-size: 1rem;
+nav a {
   text-decoration: none;
-  font-weight: 700;
   color: #fff;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px rgba(0, 0, 0, 1);
-  word-spacing: 2px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-main a:hover {
-  background-color: #b21368;
+nav a:hover {
+  color: #c8df52;
+  font-size: large;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    margin: 0 auto;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
 
 /*Footer*/
@@ -77,7 +79,7 @@ footer {
 }
 li {
   list-style-type: none;
-  margin-left: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 ul {
@@ -92,9 +94,8 @@ footer a {
 
 .footer-heading {
   font-weight: 700;
-  padding: 5pxpx;
+  padding: 5px;
 }
-
-footer a:hover{
+footer a:hover {
   color: #fff;
 }
