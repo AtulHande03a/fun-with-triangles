@@ -9,6 +9,7 @@
 /*Navbar */
 body {
   font-family: "Roboto";
+  background-color: #a4e5e0;
 }
 
 .navbar-container {
@@ -39,4 +40,64 @@ body {
 
 .github-link:hover {
   color: #1e3d58;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+}
+
+main h1 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+main a {
+  background-color: #695e93;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 2rem;
+  border: 2px solid #eee;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px rgba(0, 0, 0, 1);
+  word-spacing: 2px;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 0.5rem;
+  background-color: #2e8bc0;
+}
+li {
+  list-style-type: none;
+  margin-left: 0.5rem;
+}
+
+ul {
+  display: flex;
+}
+
+footer a {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0 0.7rem;
+}
+
+.footer-heading {
+  font-weight: 700;
+  padding: 5pxpx;
 }
