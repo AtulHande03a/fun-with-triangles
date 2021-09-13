@@ -4,9 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/quiz.css" />
+    <title>Quiz</title>
   </head>
   <body>
-    <h1>quiz</h1>
+    <nav class="navbar-container">
+      <ul>
+       
+        <li><a href="../html/is-a-triangle.html">Triangle?</a></li>
+          <li><a href="../html/hypotenuse.html">Hypotenuse</a></li>
+          <li> <a href="../html/area.html">Area</a></li>
+         
+          <li><a href="../html/quiz.html">Quiz</a></li>
+        </li>
+      </ul>
+    </nav>
+    
+     <main>
+       
+         <a class= "homepage-link" href="../index.html"><i class="fas fa-arrow-circle-left"></i></a>
+        
+         <h2>Triangle Quiz</h2>
+        <form action="" id="quiz-form">
+          
+          <div class="question-container">
+            <p>
+              1. If a triangle has angles 135, 15, 30. Is it an obtuse triangle?
+            </p>
+            <label>
+              <input type="radio" name="question1" value="yes" />yes
+            </label>
+            <label> <input type="radio" name="question1" value="no" />no</label>
+          </div>
+          <div class="question-container">
+            <p>
+              2. If a triangle has angles 115, 25, 40. Is it an acute triangle?
+            </p>
+            <label> <input type="radio" name="question2" value="yes" />yes</label>
+            <label> <input type="radio" name="question2" value="no" />no</label>
+          </div>
+          <div class="question-container">
+            <p>
+              3. The perimeter of an equilateral triangle is 15cm. What is the
+              length of one side?
+            </p>
+            <label> <input type="radio" name="question3" value="15" />15</label>
+            <label> <input type="radio" name="question3" value="45" />45</label>
+            <label> <input type="radio" name="question3" value="5" />5</label>
+          </div>
+          <div class="question-container">
+            <p>
+              4. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of
+              triangle?
+            </p>
+            <label>
+              <input
+                type="radio"
+                name="question4"
+                value="equilateral"
+              />equilateral</label
+            >
+            <label>
+              <input
+                type="radio"
+                name="question4"
+                value="isosceles"
+              />isosceles</label
+            >
+            <label>
+              <input
+                type="radio"
+                name="question4"
+                value="scalene"
+              />scalene</label
+            >
+          </div>
+          <div class="question-container">
+            <p>
+              5. If a triangle has 2 sides with equal lengths and 75 angle between
+              them. What is the type of triangle?
+            </p>
+            <label>
+              <input
+                type="radio"
+                name="question5"
+                value="equilateral"
+              />equilateral</label
+            >
+            <label>
+              <input
+                type="radio"
+                name="question5"
+                value="isosceles"
+              />isosceles</label
+            >
+            <label>
+              <input
+                type="radio"
+                name="question5"
+                value="right Angle traingle"
+              />Right Angle traingle</label
+            >
+          </div>
+          
+        </form>
+        <button  id="submit-btn">Submit</button>
+        <div class="output-text"></div> 
+        
+      </main>
+
+    <footer>
+      <p class="footer-heading">Connect with me on:</p>
+      <div class="social-container">
+        <ul>
+          <li>
+            <a
+              class="link"
+              target="blank"
+              href="https://github.com/AtulHande03a"
+            >
+              <i class="fab fa-github-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              target="blank"
+              href="https://www.linkedin.com/in/atul-hande/"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              target="blank"
+              href="https://mobile.twitter.com/AtulHande9"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../js/quiz.js"></script>
   </body>
 </html>
+
