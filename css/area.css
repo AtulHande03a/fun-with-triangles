@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+  background-color: #a4e5e0;
+}
+
+/*main*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.3rem 0.6rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #ff4500;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.message {
+  text-align: center;
+  display: none;
+  color: #323e42;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.homepage-link {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0 0.7rem;
+}
+.homepage-link:hover {
+  color: #bd97cb;
+}
+
+button#calculate {
+  background-color: #695e93;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid #4e4f50;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px rgba(0, 0, 0, 1);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+button#calculate:hover {
+  background-color: #b21368;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+}
+
+/*Navbar */
+.navbar-container {
+  top: 0;
+  left: 50%;
+  background-color: #2e8bc0;
+  padding: 1rem 1rem;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  box-shadow: 0 5px 10px #1e3d58;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: auto 3rem;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+nav a:hover {
+  color: #c8df52;
+  font-size: large;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    margin: 0 auto;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background-color: #2e8bc0;
+}
+li {
+  list-style-type: none;
+  padding-left: 0.5rem;
+}
+
+ul {
+  display: flex;
+}
+
+footer a {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0 0.7rem;
+}
+
+.footer-heading {
+  font-weight: 700;
+  padding: 5px;
+}
+footer a:hover {
+  color: #fff;
+}
