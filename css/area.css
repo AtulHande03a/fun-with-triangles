@@ -8,6 +8,9 @@
 body {
   font-family: "Roboto";
   background-color: #a4e5e0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 /*main*/
@@ -78,9 +81,10 @@ button#calculate:hover {
 /*Navbar */
 .navbar-container {
   top: 0;
-  left: 50%;
+  left: 0;
   background-color: #2e8bc0;
   padding: 1rem 1rem;
+  width: 100vw;
   margin: 0 auto;
   font-family: "Montserrat";
   box-shadow: 0 5px 10px #1e3d58;
@@ -136,7 +140,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  position: sticky;
+  margin-top: auto;
   padding: 0.5rem;
   background-color: #2e8bc0;
 }
