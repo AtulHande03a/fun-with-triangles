@@ -89,11 +89,11 @@ button#calculate:hover {
   top: 0;
   left: 0;
   width: 100vw;
-  background-color: #2e8bc0;
   padding: 1rem 1rem;
   margin: 0 auto;
   font-family: "Montserrat";
-  box-shadow: 0 5px 10px #1e3d58;
+  background-color: #2e8bc0;
+  box-shadow: 0 0 10px #1e3d58;
   margin-bottom: 0.5rem;
 }
 

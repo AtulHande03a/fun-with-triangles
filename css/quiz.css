@@ -121,7 +121,8 @@ button#submit-btn:hover {
   font-weight: 700;
   font-size: 1rem;
   text-align: center;
-  width: auto;
+
+  margin-top: 3px;
 }
 .heading-text {
   display: block;
@@ -152,6 +153,7 @@ label {
 
 .output-div {
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 /*Footer*/
@@ -165,7 +167,7 @@ footer {
   margin-top: auto;
   padding: 0.5rem;
   background-color: #2e8bc0;
-  box-shadow: 0 5px 10px #1e3d58;
+  box-shadow: 0 0 10px #1e3d58;
 }
 
 li {

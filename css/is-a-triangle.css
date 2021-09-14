@@ -144,6 +144,7 @@ footer {
   margin-top: auto;
   padding: 0.5rem;
   background-color: #2e8bc0;
+  box-shadow: 0 0 10px #1e3d58;
 }
 
 li {
